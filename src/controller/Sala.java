@@ -7,7 +7,7 @@ public class Sala extends Thread {
 	public int pessoa;
 	private int dist_andada= 0;
 	public int dist_total;
-	private static int andar = 0;
+	public static int andar = 0;
 	private Semaphore semaforo;
 	
 	
